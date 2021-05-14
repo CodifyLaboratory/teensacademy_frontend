@@ -80,7 +80,7 @@ color: #fff;
 }
 
 .header {
-  margin-bottom: 132px;
+  margin-bottom: 50px;
 }
 
 .header__title {
@@ -311,6 +311,10 @@ line-height: 18px;
 
 
 /* all courses */
+
+.header__content{
+    margin-bottom: 132px;
+}
 
 .header__courses-card{
     background: #FFFFFF;
