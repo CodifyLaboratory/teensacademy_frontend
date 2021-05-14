@@ -36,14 +36,10 @@ ul {
   width: 100%;
   margin: 0px auto;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   margin-top: 29px;
-  margin-right: none;
   margin-bottom: 92px;
-}
-
-.nav__logo {
-  margin-right: 250px;
 }
 
 .nav__link {
@@ -56,7 +52,6 @@ color: #fff;
 
 .nav__item {
   display: flex;
-
 }
 
 .nav__link:hover{
@@ -82,7 +77,7 @@ color: #fff;
 }
 
 .header {
-  margin-bottom: 50px;
+  margin-bottom: 132px;
 }
 
 .header__title {
@@ -309,4 +304,63 @@ color: #fff;
     font-weight: 500;
 font-size: 15px;
 line-height: 18px;
+}
+
+
+/* all courses */
+
+.header__courses-card{
+    background: #FFFFFF;
+box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.08);
+border-radius: 20px;
+max-width: 380px;
+    width: 100%;
+    padding-bottom: 12px;
+}
+
+.header__courses-img{
+    max-width: 380px;
+    width: 100%;
+}
+
+.header__courses-title{
+    font-weight: 600;
+font-size: 30px;
+line-height: 37px;
+color: #2D2727;
+padding-top: 20px;
+padding-left: 20px;
+}
+
+.header__courses-descr{
+    font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+color: #4A4A4A;
+max-width: 337px;
+width: 100%;
+padding-top: 20px;
+padding-left: 20px;
+}
+
+.header__courses-btn{
+    text-align: center;
+    font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+color: #fff;
+background: #31529A;
+border-radius: 15px;
+max-width: 356px;
+width: 100%;
+padding: 14px 94px;
+margin-left: 12px;
+margin-top: 40px;
+cursor: pointer;
+}
+
+.header__courses-cards-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
 }
