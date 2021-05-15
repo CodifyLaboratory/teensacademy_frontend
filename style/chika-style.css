@@ -13,6 +13,7 @@ body {
     #200554 60.85%,
     #a8167d 98.17%
   );
+  color: #fff;
 }
 
 a {
@@ -31,30 +32,34 @@ ul {
 }
 
 .nav__content {
-  max-width: 1440px;
-  width: 100%;
-  margin: 0px auto;
+  
   display: flex;
+  justify-content: space-between;
   align-items: center;
   margin-top: 29px;
-  margin-right: none;
   margin-bottom: 92px;
 }
 
-.nav__logo {
-  margin-right: 250px;
-}
-
 .nav__link {
-  margin-right: 52px;
+  margin-right: 26px;
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
-  color: black;
+color: #fff;
+}
+
+.nav__list{
+    display: flex;
+    align-items: center;
 }
 
 .nav__item {
   display: flex;
+}
+
+.nav__link:hover{
+    transform: translateY(-5px);
+    text-decoration: underline;
 }
 
 .btn {
@@ -75,7 +80,7 @@ ul {
 }
 
 .header {
-  padding-bottom: 60px;
+  margin-bottom: 50px;
 }
 
 .header__title {
@@ -83,7 +88,7 @@ ul {
   font-size: 40px;
   line-height: 49px;
   text-align: center;
-  padding-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .news__cards {
@@ -145,6 +150,59 @@ ul {
   line-height: 37px;
 }
 
+
+.checkbox {
+    position: relative;
+    margin-top: 30px;
+  }
+  
+  .checkbox__input {
+    position: absolute;
+    top: -1000000px;
+    left: -100000px;
+    opacity: 0;
+  }
+  
+  .checkbox__label {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    padding-left: calc(34px + 18px);
+  }
+  
+  .checkbox__label::before {
+      position: absolute;
+      content: "";
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      width: 18px;
+      height: 18px;
+      border-radius: 5px;
+      border: 3px solid #fff
+  }
+  
+  .checkbox__label::after {
+      position: absolute;
+      content: url('../images/checkbox-arrow.svg');
+      top: 50%;
+      left: 4px;
+      transform: translateY(-60%);
+      opacity: 0;
+  }
+  
+  .checkbox__input:checked ~ .checkbox__label::before {
+      background: #FF7B00;
+      border: 3px solid #FF7B00;
+  }
+  
+  .checkbox__input:checked ~ .checkbox__label::after {
+      opacity: 1;
+  }
+
 .section {
   margin-bottom: 236px;
 }
@@ -191,25 +249,41 @@ ul {
     #3d065f 42.6%,
     #200554 168.23%
   );
+  padding-bottom: 28px;
+}
+
+.footer__content{
+    background-image: url("../images/footer__stars.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .footer__texts {
+    padding-top: 60px;
   display: flex;
   justify-content: space-between;
+  
 }
 
+
 .footer__title {
-  padding-bottom: 24px;
+  margin-bottom: 24px;
   font-weight: 600;
   font-size: 30px;
   line-height: 37px;
 }
 
 .footer__descr {
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
+  color: #fff;
+}
+
+.footer__descr:hover{
+    transform: translateY(-5px);
+    text-decoration: underline;
 }
 
 .footer__socials {
@@ -222,53 +296,78 @@ ul {
   text-align: center;
 }
 
-.checkbox {
-  position: relative;
+.footer__line{
+    margin-top: 28px;
+    border-bottom: 1.03px solid #fff;
 }
 
-.checkbox__input {
-  position: absolute;
-  top: -1000000px;
-  left: -100000px;
-  opacity: 0;
+.footer__copyright{
+    margin-top: 25px;
+    text-align: center;
+    font-weight: 500;
+font-size: 15px;
+line-height: 18px;
 }
 
-.checkbox__label {
-  font-weight: 600;
-  font-size: 30px;
-  line-height: 37px;
-  color: #fff;
-  cursor: pointer;
-  position: relative;
-  padding-left: calc(34px + 18px);
+
+/* all courses */
+
+.header__content{
+    margin-bottom: 132px;
 }
 
-.checkbox__label::before {
-    position: absolute;
-    content: "";
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    width: 18px;
-    height: 18px;
-    border-radius: 5px;
-    border: 3px solid #fff
+.header__courses-card{
+    background: #FFFFFF;
+box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.08);
+border-radius: 20px;
+max-width: 380px;
+    width: 100%;
+    padding-bottom: 12px;
 }
 
-.checkbox__label::after {
-    position: absolute;
-    content: url('../images/checkbox-arrow.svg');
-    top: 50%;
-    left: 4px;
-    transform: translateY(-60%);
-    opacity: 0;
+.header__courses-img{
+    max-width: 380px;
+    width: 100%;
 }
 
-.checkbox__input:checked ~ .checkbox__label::before {
-    background: #FF7B00;
-    border: 3px solid #FF7B00;
+.header__courses-title{
+    font-weight: 600;
+font-size: 30px;
+line-height: 37px;
+color: #2D2727;
+padding-top: 20px;
+padding-left: 20px;
 }
 
-.checkbox__input:checked ~ .checkbox__label::after {
-    opacity: 1;
+.header__courses-descr{
+    font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+color: #4A4A4A;
+max-width: 337px;
+width: 100%;
+padding-top: 20px;
+padding-left: 20px;
+}
+
+.header__courses-btn{
+    text-align: center;
+    font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+color: #fff;
+background: #31529A;
+border-radius: 15px;
+max-width: 356px;
+width: 100%;
+padding: 14px 94px;
+margin-left: 12px;
+margin-top: 40px;
+cursor: pointer;
+}
+
+.header__courses-cards-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
 }
