@@ -459,3 +459,241 @@ margin-top: 0px;
   margin-bottom: 678px;
 }
 
+
+/* more_about_the_course */
+
+.header__ux-img{
+  background-image: url("../images/header__ux-ui.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: top;
+  margin-top: 18px;
+  margin-bottom: 250px;
+}
+
+
+
+.header__desing{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 570px;
+}
+
+.desing__title{
+  font-weight: 600;
+font-size: 40px;
+line-height: 49px;
+}
+
+.desing__descr{
+  font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+max-width: 680px;
+width: 100%;
+margin-top: 32px;
+}
+
+.desing__card{
+  background: #FFFFFF;
+border-radius: 20px;
+max-width: 400px;
+width: 100%;
+padding: 0px 16px;
+padding-bottom: 24px;
+}
+
+.desing__card-title{
+  font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+color: #292929;
+padding-top: 16px;
+}
+
+.desing__card-descr{
+  font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+color: #FF7B00;
+padding-top: 8px;
+}
+
+.desing__card-subtitle{
+  font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+color: #FF7B00;
+padding-top: 16px;
+}
+
+.desing__card-time{
+  font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+color: #FF7B00;
+max-width: 271px;
+width: 100%;
+padding-top: 8px;
+}
+
+.desing__btn-btn{
+  margin-top: 24px;
+  padding: 0px 47px;
+}
+
+.desing__btn{
+  background: #FF7B00;
+box-shadow: 0px 8px 8px #B55700;
+border-radius: 40px;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+color: #ffffff;
+text-transform: uppercase;
+text-align: center;
+padding: 25px 70px;
+max-width: 257px;
+width: 100%;
+cursor: pointer;
+}
+
+.signup-for__title{
+  text-align: center;
+  font-weight: 600;
+font-size: 40px;
+line-height: 49px;
+margin-top: 50px;
+}
+
+.signup-for {
+  margin-top: 180px;
+  text-align: center;
+}
+.signup-for__texts {
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+  justify-content: center;
+}
+
+
+.signup-for__text  {
+  margin-right: 40px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  margin-top: 41px;
+}
+
+.signup-for__form-card{
+  display: flex;
+  justify-content: center;
+}
+
+.signup-for__form {
+  padding: 25px 24px;
+  max-width: 1032px;
+  width: 100%;
+  background: #FFFFFF;
+  border-radius: 20px;
+  margin-top: 40px;
+  
+}
+
+.signup-form__form{
+  display: flex;
+  justify-content: space-between;
+}
+
+.signup__name:focus{
+  border: none;
+}
+
+.signup__name{
+  max-width: 312px;
+  width: 100%;
+  background: #FFFFFF;
+border: 1px solid #BCBCBC;
+box-sizing: border-box;
+border-radius: 15px;
+padding: 16px 8px;
+}
+
+
+
+.chekbox__signup{
+  position: relative;
+  
+}
+
+.chekbox__input {
+  position: absolute;
+  top: -1000000px;
+  left: -100000px;
+  opacity: 0;
+}
+
+.chekbox__label {
+  font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #31529A;
+  cursor: pointer;
+  position: relative;
+  padding-left: calc(34px + 18px);
+}
+
+.chekbox__label::before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+    border: 3px solid #31529A;
+}
+
+.chekbox__label::after {
+    position: absolute;
+    content: url('../images/checkbox__header.svg');
+    top: 60%;
+    left: 4.5px;
+    transform: translateY(-60%);
+    opacity: 0;
+}
+
+.chekbox__input:checked ~ .chekbox__label::before {
+    background: #ffffff;
+    border: 3px solid #31529A;
+}
+
+.chekbox__input:checked ~ .chekbox__label::after {
+    opacity: 1;
+}
+
+.signup__card-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.signup__for-btn{
+  margin-top: 40px;
+}
+
+.signup__btn{
+  background: #FF7B00;
+border-radius: 15px;
+max-width: 265px;
+width: 100%;
+font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+padding: 16px 42px;
+cursor: pointer;
+}
