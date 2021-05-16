@@ -32,12 +32,11 @@ ul {
 }
 
 .nav__content {
-  
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 29px;
-  margin-bottom: 92px;
+  padding-top: 29px;
+  
 }
 
 .nav__link {
@@ -84,6 +83,7 @@ color: #fff;
 }
 
 .header__title {
+  margin-top: 92px;
   font-weight: 600;
   font-size: 40px;
   line-height: 49px;
@@ -371,3 +371,91 @@ cursor: pointer;
     justify-content: space-between;
     margin-top: 20px;
 }
+
+/* all mentors */
+
+.nav__mentors{
+  background: #3F096C;
+  padding-bottom: 22px;
+}
+
+.our__mentors{
+  background-image: url("../images/header__stars.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: top;
+}
+
+.mentor{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 44px;
+  font-weight: 800;
+font-size: 40px;
+line-height: 49px;
+}
+
+.mentor__card-title{
+  font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+}
+
+.mentor__card-descr{
+  font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+padding-top: 16px;
+}
+
+.mentor__card-descrp{
+  font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+color: #4A4A4A;
+max-width: 469px;
+width: 100%;
+padding-top: 16px;
+padding-bottom: 100px;
+}
+
+
+.mentor__card{
+  max-width: 517px;
+  width: 100%;
+  background: #FFFFFF;
+box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.08);
+border-radius: 20px;
+padding: 24px;
+
+}
+
+.mentor__cards{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 156px;
+}
+
+.mentor__cards:nth-last-child(4){
+margin-top: 0px;
+}
+
+
+.mentor__cards-row{
+  max-width: 517px;
+  width: 100%;
+  position: relative;
+}
+
+.foto_mentor{
+  position: absolute;
+  bottom: -100px;
+  left: 32%;
+}
+
+.all__mentors{
+  margin-bottom: 678px;
+}
+
