@@ -17,16 +17,15 @@
 
     <nav class="nav">
         <div class="container nav__content">
-
-            <!-- <div class="nav__left"> -->
+<!-- лого сделала как ссылку -->
                 <div class="nav__logo">
-                    <img src="./Images_Asya/nav-logo.svg" alt="">
-                </div>
-
-            <!-- </div> -->
+                    <a href="">
+                        <img src="./Images_Asya/nav-logo.svg" alt="">
+                    </a>
+                    </div>
 
             <div class="nav__right">
-
+<!-- исправиля text decoration -->
                 <ul class="nav__lists">
                     <li class="nav__item"><a href="" class="nav__link">О нас</a></li>
                     <li class="nav__item"><a href="" class="nav__link">Курсы</a></li>
@@ -95,9 +94,13 @@
             <div>
                 <h2 class="statistics__title">Мы в цифрах</h2>
             </div>       
-
-            <div class="statistics__image">
-                <img src="./Images_Asya/statistics-img.png" alt="">
+<!-- peredelala kartinku po otdelnosti -->
+            <div class="statistics__images">
+                <img src="./Images_Asya/statistics-imgbox1.svg" alt="">
+                <img src="./Images_Asya/statistics-imgbox2.svg" alt="">
+                <img src="./Images_Asya/statistics-imgbox3.svg" alt="">
+                <img src="./Images_Asya/statistics-imgbox4.svg" alt="">
+                <img src="./Images_Asya/statistics-imgbox5.svg" alt="">
                
             </div>
             
@@ -425,7 +428,7 @@
         
     </section>
 
-    <!-- Нижнюю секцию сделает Чынгыз -->
+    
     <section class="signup-for">
         <div class="container">
             <h2 class="signup-for__title">Как записаться к нам на курсы?</h2>
@@ -435,9 +438,25 @@
                 <li class="signup-for__text">2. Оставьте заявку</li>
                 <li class="signup-for__text">3. Вас проконсультируют</li>
             </ul>
-            
-            <div class="signup-for__form">
 
+
+         <div class="signup-for__form-card">
+            <div class="signup-for__form">
+                <div class="signup-form__form">
+                <input type="signup__text" placeholder="Имя*"class="signup__name">
+                <input type="signup__text" placeholder="Email*"class="signup__name">
+                <input type="signup__text" placeholder="Номер телефона*"class="signup__name">
+            </div>
+                <div class="signup__card-box">
+                <div class="chekbox__signup">
+                    <input class="chekbox__input" type="checkbox" id="allNews">
+                    <label class="chekbox__label" for="allNews">Я согласен с политикой конфиденциальности</label>
+                </div>
+                <div class="signup__for-btn">
+                    <a href=""> <div class="signup__btn">Оставить заявку</div></a>
+                </div>
+            </div>
+                </div>
             </div>
         </div>
     </section>
