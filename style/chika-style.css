@@ -583,6 +583,10 @@ width: 100%;
 cursor: pointer;
 }
 
+.desing__btn:hover{
+  transform: translateY(-3px);
+}
+
 .signup-for__title{
   text-align: center;
   font-weight: 600;
@@ -721,4 +725,8 @@ line-height: 24px;
 color: #FFFFFF;
 padding: 16px 42px;
 cursor: pointer;
+}
+
+.signup__btn:hover{
+  transform: translateY(-3px);
 }
