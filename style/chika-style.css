@@ -59,6 +59,7 @@ color: #fff;
 .nav__item a:hover{
   border-bottom: 2px solid #FF7B00;
   text-decoration: none;
+  
 }
 
 .nav__link:hover{
@@ -345,6 +346,12 @@ max-width: 380px;
 .header__courses-img{
     max-width: 380px;
     width: 100%;
+    position: relative;
+}
+
+.age__course{
+  position: absolute;
+  right: 0px;
 }
 
 .header__courses-title{
@@ -365,6 +372,7 @@ max-width: 337px;
 width: 100%;
 padding-top: 20px;
 padding-left: 20px;
+padding-bottom: 40px;
 }
 
 .header__courses-btn{
@@ -379,8 +387,11 @@ max-width: 356px;
 width: 100%;
 padding: 14px 94px;
 margin-left: 12px;
-margin-top: 40px;
 cursor: pointer;
+}
+
+.header__courses-btn:hover{
+  transform: translateY(-3px);
 }
 
 .header__courses-cards-row{
