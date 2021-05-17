@@ -56,6 +56,11 @@ color: #fff;
   display: flex;
 }
 
+.nav__item a:hover{
+  border-bottom: 2px solid #FF7B00;
+  text-decoration: none;
+}
+
 .nav__link:hover{
     transform: translateY(-5px);
     text-decoration: underline;
@@ -474,21 +479,18 @@ margin-top: 0px;
 
 /* more_about_the_course */
 
-.header__ux-img{
-  background-image: url("../images/header__ux-ui.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-position: top;
-  margin-top: 18px;
-  margin-bottom: 250px;
-}
 
+.header__ux-img img{
+  width: 100%;
+  margin-top: 18px;
+  margin-bottom: 15px;
+}
 
 
 .header__desing{
   display: flex;
   justify-content: space-between;
-  padding-top: 570px;
+  
 }
 
 .desing__title{
