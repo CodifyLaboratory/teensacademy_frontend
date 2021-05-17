@@ -262,7 +262,11 @@ color: #fff;
     padding-top: 60px;
   display: flex;
   justify-content: space-between;
-  
+}
+
+.footer__text a:hover{
+  border-bottom: 1px solid #fff;
+  text-decoration: none;
 }
 
 
@@ -281,8 +285,16 @@ color: #fff;
   color: #fff;
 }
 
+.footer__descrp{
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #fff;
+}
+
 .footer__descr:hover{
-    transform: translateY(-5px);
+    transform: translateY(-3px);
     text-decoration: underline;
 }
 
