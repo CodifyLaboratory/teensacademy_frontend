@@ -781,3 +781,51 @@ cursor: pointer;
 .designer__btn:hover{
   transform: translateY(-3px);
 }
+
+.program{
+  margin-bottom: 150px;
+}
+
+.program__title{
+  font-weight: 600;
+font-size: 40px;
+line-height: 49px;
+}
+
+.program__card{
+  background: #FFFFFF;
+border-radius: 20px;
+margin-top: 70px;
+padding: 100px 102px;
+}
+
+.program__text{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 10px;
+}
+
+.program__subtitle{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #292929;
+}
+
+.program__descr{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #292929;
+max-width: 980px;
+width: 100%;
+margin-bottom: 20px;
+padding: 10px;
+}
+
+.program__cross{
+  cursor: pointer;
+}
