@@ -737,6 +737,15 @@ cursor: pointer;
   background: linear-gradient(296.7deg, #45108A -5.17%, #3D065F 42.6%, #200554 168.23%);
 }
 
+.ux-ui__des{
+  max-width: 645px;
+  width: 100%;
+}
+
+.ux-ui__des img{
+  width: 100%;
+}
+
 .header__designer{
   display: flex;
   justify-content: space-between;
@@ -828,4 +837,21 @@ padding: 10px;
 
 .program__cross{
   cursor: pointer;
+}
+
+.student__title{
+  font-weight: 600;
+font-size: 40px;
+line-height: 49px;
+color: #FFFFFF;
+margin-bottom: 70px;
+}
+
+.student__foto{
+  max-width: 1180px;
+  width: 100%;
+}
+
+.student__foto img{
+width: 100%;
 }
