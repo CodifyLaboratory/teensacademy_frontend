@@ -36,7 +36,7 @@ ul {
   justify-content: space-between;
   align-items: center;
   padding-top: 29px;
-  
+
 }
 
 .nav__link {
@@ -729,4 +729,10 @@ cursor: pointer;
 
 .signup__btn:hover{
   transform: translateY(-3px);
+}
+
+/* ux-ui__desing */
+
+.desing-bac{
+  background: linear-gradient(296.7deg, #45108A -5.17%, #3D065F 42.6%, #200554 168.23%);
 }
