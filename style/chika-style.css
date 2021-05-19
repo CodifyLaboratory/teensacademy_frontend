@@ -855,3 +855,63 @@ margin-bottom: 70px;
 .student__foto img{
 width: 100%;
 }
+
+.master__title{
+  font-weight: 600;
+font-size: 40px;
+line-height: 49px;
+text-align: center;
+color: #FFFFFF;
+margin-top: 150px;
+margin-bottom: 73px;
+}
+
+.master__card{
+  background: #FFFFFF;
+box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.08);
+border-radius: 20px;
+max-width: 955px;
+width: 100%;
+padding: 43px 73px;
+position: absolute;
+
+}
+
+
+.master__card-title{
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 49px;
+  color: #000000;
+}
+
+.master__card-subtitle{
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  color: #000000;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.master__card-descr{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+  max-width: 532px;
+  width: 100%;
+}
+
+.masters{
+  max-width: 440px;
+  width: 100%;
+  position: relative;
+  bottom: 55px;
+  left: 60%;
+  margin-bottom: 200px;
+}
+
+.masters img{
+  width: 100%;
+}
