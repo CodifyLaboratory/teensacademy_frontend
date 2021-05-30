@@ -389,16 +389,19 @@ padding-bottom: 40px;
 
 .header__courses-btn{
     text-align: center;
+    align-items: center;
     font-weight: 600;
 font-size: 16px;
 line-height: 20px;
-color: #fff;
-background: #31529A;
+color: #FF7B00;
+background: #FFFFFF;
+border: 2px solid #FF7B00;
+box-sizing: border-box;
 border-radius: 15px;
 max-width: 356px;
 width: 100%;
-padding: 14px 94px;
-margin-left: 12px;
+padding: 12px 74px;
+margin-left: 20px;
 cursor: pointer;
 }
 
