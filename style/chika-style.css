@@ -806,6 +806,47 @@ cursor: pointer;
   transform: translateY(-3px);
 }
 
+.header__desing-card{
+  display: flex;
+  background: #FFFFFF;
+border-radius: 20px;
+padding: 40px;
+max-width: 595px;
+width: 100%;
+justify-content: space-between;
+}
+
+.header__des-card-title{
+  font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+color: #292929;
+}
+
+.header__des-card-descr{
+  font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+color: #FF7B00;
+padding-top: 16px;
+}
+
+.header__des-card-subtitle{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #292929;
+  padding-top: 21px;
+}
+
+.header__des-card-subdescr{
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  color: #FF7B00;
+  padding-top: 16px;
+}
+
 .program{
   margin-bottom: 150px;
 }
