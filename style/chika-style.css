@@ -422,11 +422,20 @@ cursor: pointer;
   padding-bottom: 22px;
 }
 
-.our__mentors{
+/* .our__mentors{
   background-image: url("../images/header__stars.png");
   background-repeat: no-repeat;
   background-position: center;
   background-position: top;
+  background-size: contain;
+} */
+
+.main {
+  background-image: url("../images/star__backg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+
 }
 
 .mentor{
