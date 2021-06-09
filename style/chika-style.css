@@ -417,6 +417,10 @@ cursor: pointer;
 
 /* all mentors */
 
+.all__mentors{
+  margin-bottom: 678px;
+}
+
 .nav__mentors{
   background: #3F096C;
   padding-bottom: 22px;
@@ -435,6 +439,7 @@ cursor: pointer;
   background-repeat: no-repeat;
   background-size: contain;
   height: 100%;
+  width: 100%;
 
 }
 
@@ -507,8 +512,100 @@ margin-top: 0px;
   left: 32%;
 }
 
-.all__mentors{
-  margin-bottom: 678px;
+
+.burger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 48px;
+  height: 42px;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 12px;
+  margin-left: 24px;
+  cursor: pointer;
+}
+
+.burger__line {
+  background-color: white;
+  width: 100%;
+  height: 1px;
+  transition: all 0.3s;
+}
+
+.sign__upp{
+  display: none;
+}
+
+.sign__up_cards{
+  background: #FFFFFF;
+border-radius: 8px;
+max-width: 340px;
+width: 100%;
+padding: 13px;
+}
+
+.sign__up_title{
+  font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #FFFFFF;
+margin-top: 100px;
+margin-bottom: 40px;
+}
+
+.sign__up_card_title{
+  font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+color: #292929;
+}
+
+.sign__up_card_descr{
+  font-size: 15px;
+line-height: 18px;
+text-align: center;
+color: #4A4A4A;
+max-width: 317px;
+width: 100%;
+padding-top: 14px;
+}
+
+.sign__up_name{
+  font-weight: 300;
+font-size: 18px;
+line-height: 21px;
+color: #292929;
+margin-top: 35px;
+border: none;
+}
+
+.sign__up_btn{
+  font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+color: #FFFFFF;
+background: #FF7B00;
+border-radius: 4px;
+max-width: 206px;
+width: 100%;
+text-align: center;
+padding: 14px 20px;
+margin-top: 50px;
+margin-left: 55px;
+cursor: pointer;
+}
+
+.sign__up_descrp{
+  font-weight: 300;
+font-size: 13px;
+line-height: 15px;
+color: #292929;
+max-width: 245px;
+width: 100%;
+margin-top: 24px;
 }
 
 
@@ -980,4 +1077,182 @@ left: 380px;
 
 .masters img{
   width: 100%;
+}
+
+@media (max-width: 1250px) {
+  .nav__mentors {
+    padding: 14px 14px;
+  }
+
+
+}
+
+@media (max-width: 1000px){
+  .nav__list{
+    display: none;
+  }
+
+  .burger {
+    display: flex;
+  }
+
+  .burger_active .burger__line:nth-child(1) {
+    transform: rotate(-45deg) translate(-8px, 3px);
+  }
+
+  .burger_active .burger__line:nth-child(2) {
+    display: none;
+  }
+
+  .burger_active .burger__line:nth-child(3) {
+    transform: rotate(43deg) translate(-8px, -3px);
+  }
+}
+
+@media (max-width: 1100px){
+
+  .mentor__cards-row{
+    padding: 16px;
+  }
+}
+
+@media (max-width: 900px){
+
+  .mentor__cards{
+    display: block;
+  }
+
+  .mentor__cards-row{
+    margin: auto;
+  }
+
+  .mentor__cards{
+    margin-top: 0;
+  }
+
+}
+
+@media (max-width: 550px){
+
+  .mentor__card{
+    max-width: 343px;
+    width: 100%;
+    padding: 13px !important;
+  }
+
+  .mentor__card-descrp{
+    padding-bottom: unset;
+  }
+
+  .foto_mentor{
+    position: unset;
+    
+  }
+}
+
+@media (max-width: 375px){
+
+  body{
+    background: linear-gradient(296.7deg, #45108A -5.17%, #3D065F 42.6%, #200554 168.23%);
+  }
+
+  .all__mentors{
+    margin-bottom: 0;
+  }
+
+  .mentor{
+    font-weight: bold;
+font-size: 25px;
+line-height: 29px;
+text-align: center;
+margin-bottom: 0;
+margin-top: 60px;
+  }
+
+  .nav__mentors{
+    background: none;
+  }
+
+  .mentor__card{
+    max-width: 340px;
+    width: 100%;
+    background: #FFFFFF;
+box-shadow: 1.84279px 1.84279px 3.68559px rgba(0, 0, 0, 0.08);
+border-radius: 9.21397px;
+margin-top: 50px;
+  }
+
+  .mentor__card-title{
+    font-weight: bold;
+font-size: 17px;
+line-height: 20px;
+  }
+
+  .mentor__card-descr{
+    font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+padding-top: 12px;
+  }
+
+  .mentor__card-descrp{
+    font-weight: 300;
+font-size: 15px;
+line-height: 18px;
+padding-top: 10px;
+  }
+
+  .foto_mentor{
+    max-width: 200px;
+    width: 100%;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+
+  .sign__upp{
+    display: block;
+    padding: 10px;
+  }
+
+  .sign__up_card{
+    max-width: 340px;
+    width: 100%;
+  }
+
+  .footer__text1{
+    display: none;
+  }
+
+  .footer__text2{
+    display: none;
+  }
+
+  .footer {
+    background: none;
+    padding: 16px;
+  }
+
+  .footer__content{
+    background-image: none;
+  }
+
+  .footer__descrp{
+    margin-bottom: 25px;
+  }
+
+  .footer__social{
+    margin-top: 5px;
+  }
+
+  .footer__social{
+    margin-bottom: 50px;
+  }
+
+  .footer__line{
+    display: none;
+  }
+
+  .footer__copyright{
+    margin-top: 30px;
+  }
 }
