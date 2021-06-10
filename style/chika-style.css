@@ -1550,8 +1550,93 @@ line-height: 21px;
   color: #FFFFFF;
 }
 
-.program__title{
-  
+.program__content{
+  padding: 0px;
 }
+
+.program__title{
+  padding: 0px 14px;
+  font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+}
+
+.program__card{
+  padding: 0px;
+}
+
+.program__subtitle{
+  font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+color: #292929;
+}
+
+.program__descr{
+  font-weight: 200;
+font-size: 14px;
+line-height: 20px;
+}
+
+.program__line{
+  max-width: 375px;
+  width: 100%;
+}
+
+.program__card{
+  border-radius: 0px;
+}
+
+.student__title{
+  font-weight: 500;
+font-size: 23px;
+line-height: 30px;
+}
+
+.master__title{
+  font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+margin-top: 66px;
+margin-bottom: 35px;
+}
+
+.masters{
+  max-width: 150px;
+  width: 100%;
+  margin-bottom: 50px;
+  bottom: 10px;
+}
+
+.master__card{
+  max-width: 289px;
+  width: 100%;
+  padding: 0px;
+  left: 55px;
+}
+
+.master__card-title{
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  margin-top: 7px;
+}
+
+.master__card-subtitle{
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  margin-top: 7px;
+  margin-bottom: 10px;
+}
+
+.master__card-descr{
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 18px;
+  color: #4A4A4A;
+  margin-bottom: 9px;
+}
+
 
 }
