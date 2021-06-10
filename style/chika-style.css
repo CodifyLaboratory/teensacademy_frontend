@@ -1434,4 +1434,54 @@ color: black;
   .containerr{
     padding: 0px 14px;
   }
+
+  .header__courses-cards-row{
+    display: block;
+  }
+
+  .header__courses-cards-row:nth-child(3){
+    display: none;
+  }
+
+  .header__courses-card{
+    max-width: 343px;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .header__all_course_img{
+     max-width: 343px;
+    width: 100%;
+  }
+
+  .age__course{
+    width: 53px;
+    height: 48px;
+  }
+
+  .header__courses-title{
+    font-weight: 500;
+font-size: 22px;
+line-height: 26px;
+  }
+
+  .header__courses-descr{
+    font-weight: normal;
+font-size: 17px;
+line-height: 19px;
+max-width: 321px;
+width: 100%;
+  }
+
+  .header__courses-btn{
+    max-width: 294px;
+    width: 100%;
+    font-weight: 600;
+font-size: 18px;
+line-height: 21px;
+padding: 13px 50px;
+border: 1px solid #FF7B00;
+box-sizing: border-box;
+border-radius: 10px;
+  }
 }
