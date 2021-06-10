@@ -1088,12 +1088,30 @@ line-height: 29px;
 color: #292929;
 }
 
+.header__des-card-title_mobile{
+  display: none;
+  font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+color: #FFFFFF;
+}
+
+.header__des-card-descr_mobile{
+  display: none;
+  font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+color: #FFFFFF;
+margin-top: 11px;
+}
+
 .header__des-card-descr{
   font-weight: 500;
 font-size: 24px;
 line-height: 29px;
 color: #FF7B00;
 padding-top: 16px;
+margin-bottom: 15px;
 }
 
 .header__des-card-subtitle{
@@ -1619,10 +1637,7 @@ line-height: 21px;
 }
 
 .header__des-card-title{
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 24px;
-  color: #FFFFFF;
+  display: none;
 }
 
 .header__des-card-descr{
@@ -1644,6 +1659,14 @@ line-height: 21px;
   font-size: 15px;
   line-height: 18px;
   color: #FFFFFF;
+}
+
+.header__des-card-title_mobile{
+  display: block;
+}
+
+.header__des-card-descr_mobile{
+  display: block;
 }
 
 .program__content{
