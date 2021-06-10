@@ -602,6 +602,30 @@ padding-top: 16px;
 padding-bottom: 100px;
 }
 
+.mentor__card-title_mobile{
+  display: none;
+  font-weight: 600;
+font-size: 17px;
+line-height: 20px;
+color: #292929;
+    }
+  
+    .mentor__card-descr_mobile{
+  display: none;
+  font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+color: #292929;
+    }
+  
+    .mentor__card-descrp_mobile{
+  display: none;
+  font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+color: #4A4A4A;
+    }
+
 
 .mentor__card{
   max-width: 517px;
@@ -634,6 +658,12 @@ margin-top: 0px;
   position: absolute;
   bottom: -100px;
   left: 32%;
+}
+
+.foto__mentor_mobile{
+  display: none;
+  max-width: 200px;
+  width: 100%;
 }
 
 
@@ -1281,6 +1311,10 @@ left: 380px;
     margin-bottom: 0;
   }
 
+  .mentor__cards:nth-child(4){
+    display: none;
+  }
+
   .mentor{
     font-weight: bold;
 font-size: 25px;
@@ -1306,28 +1340,44 @@ margin-top: 50px;
   }
 
   .mentor__card-title{
-    font-weight: bold;
-font-size: 17px;
-line-height: 20px;
+    display: none;
   }
 
   .mentor__card-descr{
-    font-weight: 500;
-font-size: 15px;
-line-height: 18px;
-padding-top: 12px;
+    display: none;
   }
 
   .mentor__card-descrp{
-    font-weight: 300;
-font-size: 15px;
-line-height: 18px;
-padding-top: 10px;
+    display: none;
+  }
+
+  .mentor__card-title_mobile{
+    display: block;
+    margin-bottom: 13px;
+  }
+
+  .mentor__card-descr_mobile{
+    display: block;
+    margin-bottom: 11px;
+  }
+
+  .mentor__card-descrp_mobile{
+    display: block;
+    max-width: 317px;
+    width: 100%;
+    
   }
 
   .foto_mentor{
+    display: none;
     max-width: 200px;
     width: 100%;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+
+  .foto__mentor_mobile{
+    display: block;
     margin-left: 50px;
     margin-top: 20px;
   }
