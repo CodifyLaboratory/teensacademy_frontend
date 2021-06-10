@@ -470,6 +470,26 @@ max-width: 380px;
   right: 0px;
 }
 
+.header__mobile_course{
+  display: none;
+  position: relative;
+}
+
+.age__mobile{
+  display: none;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.header__courses-title_mobile{
+  display: none;
+  font-weight: 500;
+font-size: 22px;
+line-height: 26px;
+color: #292929;
+}
+
 .header__courses-title{
     font-weight: 600;
 font-size: 30px;
@@ -1456,16 +1476,36 @@ color: black;
   }
 
   .header__all_course_img{
+    display: none;
      max-width: 343px;
     width: 100%;
   }
 
+  .header__mobile_course{
+    display: block;
+    max-width: 343px;
+    width: 100%;
+    position: relative;
+  }
+
   .age__course{
+    display: none;
     width: 53px;
     height: 48px;
+    position: absolute;
+  }
+
+  .age__mobile{
+    display: block;
+  }
+
+  .header__courses-title_mobile{
+    display: block;
+    padding: 11px 20px;
   }
 
   .header__courses-title{
+    display: none;
     font-weight: 500;
 font-size: 22px;
 line-height: 26px;
