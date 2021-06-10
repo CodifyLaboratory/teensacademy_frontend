@@ -1071,6 +1071,20 @@ cursor: pointer;
   transform: translateY(-3px);
 }
 
+.designer__btn_mobile{
+  display: none;
+  background: #FF7B00;
+border-radius: 4px;
+padding: 19px 21px;
+max-width: 206px;
+width: 100%;
+font-weight: 600;
+font-size: 13px;
+line-height: 21px;
+color: #FFFFFF;
+text-transform: uppercase;
+}
+
 .header__desing-card{
   display: flex;
   background: #FFFFFF;
@@ -1621,14 +1635,16 @@ width: 100%;
 .designer__btn-btn{
   max-width: 206px;
   width: 100%;
-  margin-left: 30px;
+  margin-left: 60px;
   margin-bottom: 50px;
 }
 
 .designer__btn{
-  font-weight: 600;
-font-size: 18px;
-line-height: 21px;
+  display: none;
+}
+
+.designer__btn_mobile{
+display: block;
 }
 
 .header__desing-card{
