@@ -1161,6 +1161,10 @@ margin-top: 70px;
 padding: 100px 102px;
 }
 
+.arrow__mobile{
+  display: none;
+}
+
 .program__text{
   display: flex;
   justify-content: space-between;
@@ -1698,6 +1702,15 @@ line-height: 30px;
 
 .program__card{
   padding: 0px;
+}
+
+.program__cross{
+  display: none;
+}
+
+.arrow__mobile{
+  display: block;
+  cursor: pointer;
 }
 
 .program__subtitle{
