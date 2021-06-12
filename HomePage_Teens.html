@@ -12,6 +12,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
     />
+    <link rel="stylesheet" href="css/animate.css" />
     <link rel="stylesheet" href="./CSS_Asya/style-Asya.css" />
     <title>Teens(team workplace)</title>
   </head>
@@ -24,12 +25,16 @@
           alt=""
         />
       </div>
-      <div class="mobile__background"><img src="./Images_Asya/updated_bgd_gradient+animation/Background_mob_stars_and_planets.png" alt="">
+      <div class="mobile__background">
+        <img
+          src="./Images_Asya/updated_bgd_gradient+animation/Background_mob_stars_and_planets.png"
+          alt=""
+        />
       </div>
 
       <!-- <div class="parallax">
       <div class="parallax-bg"></div> -->
-<!-- В header__hero находится навигация и хэдер. тут все ок и адаптивка тоже -->
+      <!-- В header__hero находится навигация и хэдер. все сделала в этой секции -->
       <header class="header__hero">
         <nav class="nav">
           <div class="nav__content container">
@@ -37,7 +42,6 @@
               <a href="">
                 <img src="./Images_Asya/nav_main_logo.svg" alt="" />
               </a>
-              
             </div>
             <div class="logo__mob">
               <img src="./Images_Asya/nav_logo-mob.svg" alt="" />
@@ -70,7 +74,7 @@
               <button class="nav__btn">
                 <a href="" class="">RU</a>
               </button>
-<!-- Бургер сделала при нажатии выходит список, еще не поменяла знак бургера при открытии -->
+              <!-- Бургер сделала при нажатии выходит список, еще не поменяла знак бургера при открытии -->
               <div class="burger">
                 <div class="burger__line"></div>
                 <div class="burger__line"></div>
@@ -97,7 +101,9 @@
                     <a href="" class="burger__link">Отзывы наших учеников</a>
                   </li>
                   <li class="burger__item">
-                    <a href="" class="burger__link">Все новости и мероприятия</a>
+                    <a href="" class="burger__link"
+                      >Все новости и мероприятия</a
+                    >
                   </li>
                   <li class="burger__item">
                     <a href="" class="burger__link">Лагерь</a>
@@ -145,7 +151,7 @@
           </div>
         </div>
       </header>
-<!-- Данные паралакс эффекта(пока не решили, что выбрать- также есть все данные в css / js) -->
+      <!-- Данные паралакс эффекта(пока не решили, что выбрать- также есть все данные в css / js) -->
       <section class="about-us">
         <!-- <div class="background__img-stars">
             <img src="./Images_Asya/stars-block.png" alt="">
@@ -167,7 +173,7 @@
           </div>
         </div>
       </section>
-<!--  тут анимация планет -->
+      <!--  тут анимация планет -->
       <section class="background__images">
         <div class="background__planets">
           <img
@@ -175,7 +181,7 @@
             alt=""
           />
         </div>
-
+<!-- все сделала в секции mentors -->
         <section class="statistics">
           <div class="container statistics__content">
             <div>
@@ -189,36 +195,42 @@
               <img src="./Images_Asya/statistics-imgbox4.svg" alt="" />
               <img src="./Images_Asya/statistics-imgbox5.svg" alt="" />
             </div>
-      <!-- не получается сделать секцию statistics необходимым видом в адаптивку -->
+
             <div class="statistics__mobile-images">
-              <img
-                src="./Images_Asya/statistics-mobile/statistics_mob_year.svg"
-                alt=""
-              />
-              <img
-                src="./Images_Asya/statistics-mobile/statistics_mob_graduates.svg"
-                alt=""
-              />
-              <img
-                src="./Images_Asya/statistics-mobile/statistics_mob_courses.svg"
-                alt=""
-              />
-              <img
-                src="./Images_Asya/statistics-mobile/statistics_mob_teacher.svg"
-                alt=""
-              />
-              <img
-                src="./Images_Asya/statistics-mobile/statistics_mob_cities.svg"
-                alt=""
-              />
-              <img
-                src="./Images_Asya/statistics-mobile/statistics_mob_directions.svg"
-                alt=""
-              />
+              <div class="statistics__mob-groups">
+                <img
+                  src="./Images_Asya/statistics-mobile/statistics_mob_year.svg"
+                  alt=""
+                />
+                <img
+                  src="./Images_Asya/statistics-mobile/statistics_mob_graduates.svg"
+                  alt=""
+                />
+              </div>
+              <div class="statistics__mob-groups">
+                <img
+                  src="./Images_Asya/statistics-mobile/statistics_mob_courses.svg"
+                  alt=""
+                />
+                <img
+                  src="./Images_Asya/statistics-mobile/statistics_mob_teacher.svg"
+                  alt=""
+                />
+              </div>
+              <div class="statistics__mob-groups">
+                <img
+                  src="./Images_Asya/statistics-mobile/statistics_mob_cities.svg"
+                  alt=""
+                />
+                <img
+                  src="./Images_Asya/statistics-mobile/statistics_mob_directions.svg"
+                  alt=""
+                />
+              </div>
             </div>
           </div>
         </section>
-<!-- в секции курсы при адаптивке btn выходи т за преледелы карты, попробую еще проверить -->
+        <!-- все сделала в секции mentors, надо добавить слайдер -->
         <section class="courses">
           <div class="container courses__content">
             <h2 class="cources__title">Курсы</h2>
@@ -290,130 +302,135 @@
             <a href="" class="courses__btn btn">ВСЕ КУРСЫ</a>
           </div>
         </section>
-<!--  в секции benefits не получается сделать слайдер в адаптивке  -->
+        <!-- все сделала в секции mentors, надо добавить слайдер -->
         <section class="benefits">
-          <div class="container">
+          <div class="container benefits__content">
             <h2 class="benefits__title">Преимущества</h2>
 
             <div class="benefits__directions">
-              <div class="benefits__direction-info">
-                <a href="" class="benefits__directions-img">
-                  <img src="./Images_Asya/Benefits-img-channel.svg" alt="" />
-                  <p class="benefits__directions-descr">
-                    Онлайн/офлайн форматы
-                  </p>
-                </a>
+              <div class="benefits__directions-top">
+                <div class="benefits__direction-info">
+                  <a href="" class="benefits__directions-img">
+                    <img src="./Images_Asya/Benefits-img-channel.svg" alt="" />
+
+                    <p class="benefits__directions-descr">
+                      Онлайн/офлайн форматы
+                    </p>
+                  </a>
+                </div>
+
+                <div class="benefits__direction-info">
+                  <a href="" class="benefits__directions-img">
+                    <img src="./Images_Asya/Benefits-img-monitor.svg" alt="" />
+                    <p class="benefits__directions-descr">
+                      Современные методики образования
+                    </p>
+                  </a>
+                </div>
+
+                <div class="benefits__direction-info">
+                  <a href="" class="benefits__directions-img">
+                    <img src="./Images_Asya/Benefits-img-modul.svg" alt="" />
+                    <p class="benefits__directions-descr">Модульная система</p>
+                  </a>
+                </div>
+
+                <div class="benefits__direction-info">
+                  <a href="" class="benefits__directions-img">
+                    <img src="./Images_Asya/Benefits-img-laptop.svg" alt="" />
+                    <p class="benefits__directions-descr">
+                      Личный кабинет студента
+                    </p>
+                  </a>
+                </div>
               </div>
 
-              <div class="benefits__direction-info">
-                <a href="" class="benefits__directions-img">
-                  <img src="./Images_Asya/Benefits-img-monitor.svg" alt="" />
-                  <p class="benefits__directions-descr">
-                    Современные методики образования
-                  </p>
-                </a>
-              </div>
+              <div class="benefits__directions-bottom">
+                <div class="benefits__direction-info">
+                  <a href="" class="benefits__directions-img">
+                    <img
+                      src="./Images_Asya/Benefits-img-gamification.svg"
+                      alt=""
+                    />
+                    <p class="benefits__directions-descr">
+                      Геймификация и система мотивации
+                    </p>
+                  </a>
+                </div>
 
-              <div class="benefits__direction-info">
-                <a href="" class="benefits__directions-img">
-                  <img src="./Images_Asya/Benefits-img-modul.svg" alt="" />
-                  <p class="benefits__directions-descr">Модульная система</p>
-                </a>
-              </div>
+                <div class="benefits__direction-info">
+                  <a href="" class="benefits__directions-img">
+                    <img src="./Images_Asya/Benefits-img-project.svg" alt="" />
+                    <p class="benefits__directions-descr">Проектные работы</p>
+                  </a>
+                </div>
 
-              <div class="benefits__direction-info">
-                <a href="" class="benefits__directions-img">
-                  <img src="./Images_Asya/Benefits-img-laptop.svg" alt="" />
-                  <p class="benefits__directions-descr">
-                    Личный кабинет студента
-                  </p>
-                </a>
-              </div>
+                <div class="benefits__direction-info">
+                  <a href="" class="benefits__directions-img">
+                    <img src="./Images_Asya/Benefits-img-chat.svg" alt="" />
+                    <p class="benefits__directions-descr">It Английский</p>
+                  </a>
+                </div>
 
-              <div class="benefits__direction-info">
-                <a href="" class="benefits__directions-img">
-                  <img
-                    src="./Images_Asya/Benefits-img-gamification.svg"
-                    alt=""
-                  />
-                  <p class="benefits__directions-descr">
-                    Геймификация и система мотивации
-                  </p>
-                </a>
-              </div>
-
-              <div class="benefits__direction-info">
-                <a href="" class="benefits__directions-img">
-                  <img src="./Images_Asya/Benefits-img-project.svg" alt="" />
-                  <p class="benefits__directions-descr">Проектные работы</p>
-                </a>
-              </div>
-
-              <div class="benefits__direction-info">
-                <a href="" class="benefits__directions-img">
-                  <img src="./Images_Asya/Benefits-img-chat.svg" alt="" />
-                  <p class="benefits__directions-descr">It Английский</p>
-                </a>
-              </div>
-
-              <div class="benefits__direction-info">
-                <a href="" class="benefits__directions-img">
-                  <img src="./Images_Asya/Benefits-img-home.svg" alt="" />
-                  <p class="benefits__directions-descr">Профориентация</p>
-                </a>
+                <div class="benefits__direction-info">
+                  <a href="" class="benefits__directions-img">
+                    <img src="./Images_Asya/Benefits-img-home.svg" alt="" />
+                    <p class="benefits__directions-descr">Профориентация</p>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </section>
-<!--в секции stages  надо сделать анимацию и + в адаптивке тоже, попробую еще раз сделать -->
+        <!-- все сделала в секции stages, надо сделать анимацию -->
         <section class="stages">
-          <div class="container">
+          <div class="container stages__content">
+            <!-- Переписала код с некоторыми изменениями+ адаптивка -все работает( еще не добавила анимацию) -->
             <h2 class="stages__title">Этапы обучения в Codify</h2>
             <div class="stages__boxes">
-              <div class="stages__box">
-                <div class="stages__box-images">
-                  <img src="./Images_Asya/stages-img-1.png" alt="" />
+              <div class="stages__boxes-top">
+                <div class="stages__box">
+                  <div class="stages__box-img">
+                    <img src="./Images_Asya/stages-img-1.png" alt="" />
+                  </div>
+                  <div class="stages__box-vector">
+                    <img src="./Images_Asya/stages-img-1plane.svg" alt="" />
+                  </div>
                 </div>
-
-                <div class="stages__box-img">
-                  <img src="./Images_Asya//stages-img-1plane.svg" alt="" />
-                </div>
-              </div>
-
-              <div class="stages__box">
-                <div class="stages__box-img">
-                  <img src="./Images_Asya/stages-img-2plane.svg" alt="" />
-                </div>
-
-                <div class="stages__box-images">
-                  <img src="./Images_Asya/stages-img-2.png" alt="" />
-                </div>
-              </div>
-
-              <div class="stages__box">
-                <div class="stages__box-images">
-                  <img src="./Images_Asya/stages-img-3.png" alt="" />
-                </div>
-                <div class="stages__box-img">
-                  <img src="./Images_Asya/stages-img-3plane.svg" alt="" />
+                <div class="stages__box">
+                  <div class="stages__box-vector">
+                    <img src="./Images_Asya/stages-img-2plane.svg" alt="" />
+                  </div>
+                  <div class="stages__box-img">
+                    <img src="./Images_Asya/stages-img-2.png" alt="" />
+                  </div>
                 </div>
               </div>
-
-              <div class="stages__box">
-                <div class="stages__box-images">
-                  <img src="./Images_Asya/stages-img-4.png" alt="" />
+              <div class="stages__boxes-bottom">
+                <div class="stages__box">
+                  <div class="stages__box-img">
+                    <img src="./Images_Asya/stages-img-3.png" alt="" />
+                  </div>
+                  <div class="stages__box-vector">
+                    <img src="./Images_Asya/stages-img-3plane.svg" alt="" />
+                  </div>
+                </div>
+                <div class="stages__box stages__box-box">
+                  <div class="stages__box-img">
+                    <img src="./Images_Asya/stages-img-4.png" alt="" />
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
-<!-- Эту секцию на сайте надо скрывать? так как она тольк в адаптивке есть и не получается сделать увеличение и открытие файла -->
+        <!-- все сделала в секции documents, нужно добавить  открытие файла -->
         <section class="our-documents">
           <div class="container our-documents__content">
             <div class="our-documents__info">
               <h2 class="documents__title">Наши документы</h2>
             </div>
-            
+
             <div class="documents__images">
               <a href="" class="documents__img">
                 <img
@@ -438,7 +455,7 @@
             </div>
           </div>
         </section>
-<!-- все сделала, надо добавить слайдер -->
+        <!-- все сделала в секции mentors, надо добавить слайдер -->
         <section class="our-mentors">
           <div class="container our-mentors__content">
             <h2 class="our-mentors__title">Наши Ментора</h2>
@@ -447,7 +464,8 @@
               <div class="our-mentors__box">
                 <div class="our-mentors__box-info">
                   <h3 class="our-mentors__box-title">
-                    Ментор по UX/UI дизайну
+                    Ментор по UX/UI дизайну<br />
+                    <br />
                   </h3>
                   <h4 class="our-mentors__box-subtitle">Василий Боун</h4>
                   <p class="our-mentors__box-descr">
@@ -466,7 +484,8 @@
               <div class="our-mentors__box">
                 <div class="our-mentors__box-info">
                   <h3 class="our-mentors__box-title">
-                    Ментор по Java Script
+                    Ментор по Java Script<br />
+                    <br />
                   </h3>
                   <h4 class="our-mentors__box-subtitle">Владимир Широков</h4>
                   <p class="our-mentors__box-descr">
@@ -474,10 +493,7 @@
                     иностранные языки Креативный подход к обучению
                   </p>
                   <div class="our-mentors__box-images">
-                    <img
-                      src="./Images_Asya/our_mentors/mentor_JS.png"
-                      alt=""
-                    />
+                    <img src="./Images_Asya/our_mentors/mentor_JS.png" alt="" />
                   </div>
                 </div>
               </div>
@@ -485,7 +501,8 @@
               <div class="our-mentors__box">
                 <div class="our-mentors__box-info">
                   <h3 class="our-mentors__box-title">
-                    Ментор по Python
+                    Ментор по Python<br />
+                    <br />
                   </h3>
                   <h4 class="our-mentors__box-subtitle">Питер Краун</h4>
                   <p class="our-mentors__box-descr">
@@ -504,7 +521,8 @@
               <div class="our-mentors__box">
                 <div class="our-mentors__box-info">
                   <h3 class="our-mentors__box-title">
-                    Ментор по Product Manager
+                    Ментор по Product Manager<br />
+                    <br />
                   </h3>
                   <h4 class="our-mentors__box-subtitle">Анастасия Андреева</h4>
                   <p class="our-mentors__box-descr">
@@ -512,10 +530,7 @@
                     иностранные языки Креативный подход к обучению
                   </p>
                   <div class="our-mentors__box-images">
-                    <img
-                      src="./Images_Asya/our_mentors/mentor_PM.png"
-                      alt=""
-                    />
+                    <img src="./Images_Asya/our_mentors/mentor_PM.png" alt="" />
                   </div>
                 </div>
               </div>
@@ -524,21 +539,37 @@
             <a href="" class="btn our-mentors__btn">ВСЕ МЕНТОРЫ</a>
           </div>
         </section>
-<!-- все сделал, надо добавить слайдер и уменьшить сам отзыв (увеличивать при нажатии) -->
+        <!-- все сделала в секции reviews(+ скрытие и открытие при наведении), надо добавить слайдер -->
         <section class="reviews">
           <div class="container reviews__content">
             <h2 class="reviews__title">Отзывы</h2>
             <div class="reviews__boxes">
-
               <div class="reviews__box">
                 <div class="reviews__info">
                   <div class="reviews__info-img">
-                    <p class="reviews__descr">
-                      Я просто в восторге от этой школы, отзывчивчивые менторы, своевременная проверка домашнего задания
-Ментор очень пунктуальный и грамотный. Администрация очень приветливая и всегда идут на помощь, какие бы  проблемы ни возникли.
-Я просто в восторге от этой школы, отзывчивчивые менторы, своевременная проверка домашнего задания
-                    </p>
-                    <img src="./Images_Asya/reviews_img/reviews_photo1.png" alt="" />
+                    <!-- добавила анимацию скрытия и выхода при наведении -->
+                    <div class="card__hidden-description">
+                      <p class="reviews__descr">
+                        Я просто в восторге от этой школы, отзывчивчивые
+                        менторы, своевременная проверка домашнего задания Ментор
+                        очень пунктуальный и грамотный. Администрация очень
+                        приветливая и всегда идут на помощь, какие бы проблемы
+                        ни возникли. Я просто в восторге от этой школы,
+                        отзывчивчивые менторы, своевременная проверка домашнего
+                        задания
+                      </p>
+                      <div class="reviews__triangle">
+                        <img
+                          src="./Images_Asya/reviews_img/reviews_trigon.svg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+
+                    <img
+                      src="./Images_Asya/reviews_img/reviews_photo1.png"
+                      alt=""
+                    />
                   </div>
                   <h3 class="reviews__info-subtitle">Лиза Ефремова</h3>
                 </div>
@@ -547,12 +578,28 @@
               <div class="reviews__box">
                 <div class="reviews__info">
                   <div class="reviews__info-img">
-                    <p class="reviews__descr">
-                      Я просто в восторге от этой школы, отзывчивчивые менторы, своевременная проверка домашнего задания
-Ментор очень пунктуальный и грамотный. Администрация очень приветливая и всегда идут на помощь, какие бы  проблемы ни возникли.
-Я просто в восторге от этой школы, отзывчивчивые менторы, своевременная проверка домашнего задания
-                    </p>
-                    <img src="./Images_Asya/reviews_img/reviews_photo2.png" alt="" />
+                    <div class="card__hidden-description">
+                      <p class="reviews__descr">
+                        Я просто в восторге от этой школы, отзывчивчивые
+                        менторы, своевременная проверка домашнего задания Ментор
+                        очень пунктуальный и грамотный. Администрация очень
+                        приветливая и всегда идут на помощь, какие бы проблемы
+                        ни возникли. Я просто в восторге от этой школы,
+                        отзывчивчивые менторы, своевременная проверка домашнего
+                        задания
+                      </p>
+                      <div class="reviews__triangle">
+                        <img
+                          src="./Images_Asya/reviews_img/reviews_trigon.svg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+
+                    <img
+                      src="./Images_Asya/reviews_img/reviews_photo2.png"
+                      alt=""
+                    />
                   </div>
                   <h3 class="reviews__info-subtitle">Андрей Задорный</h3>
                 </div>
@@ -561,12 +608,28 @@
               <div class="reviews__box">
                 <div class="reviews__info">
                   <div class="reviews__info-img">
-                    <p class="reviews__descr">
-                      Я просто в восторге от этой школы, отзывчивчивые менторы, своевременная проверка домашнего задания
-Ментор очень пунктуальный и грамотный. Администрация очень приветливая и всегда идут на помощь, какие бы  проблемы ни возникли.
-Я просто в восторге от этой школы, отзывчивчивые менторы, своевременная проверка домашнего задания
-                    </p>
-                    <img src="./Images_Asya/reviews_img/reviews_photo3.png" alt="" />
+                    <div class="card__hidden-description">
+                      <p class="reviews__descr">
+                        Я просто в восторге от этой школы, отзывчивчивые
+                        менторы, своевременная проверка домашнего задания Ментор
+                        очень пунктуальный и грамотный. Администрация очень
+                        приветливая и всегда идут на помощь, какие бы проблемы
+                        ни возникли. Я просто в восторге от этой школы,
+                        отзывчивчивые менторы, своевременная проверка домашнего
+                        задания
+                      </p>
+                      <div class="reviews__triangle">
+                        <img
+                          src="./Images_Asya/reviews_img/reviews_trigon.svg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+
+                    <img
+                      src="./Images_Asya/reviews_img/reviews_photo3.png"
+                      alt=""
+                    />
                   </div>
                   <h3 class="reviews__info-subtitle">Kаныкей Айбекова</h3>
                 </div>
@@ -575,12 +638,28 @@
               <div class="reviews__box">
                 <div class="reviews__info">
                   <div class="reviews__info-img">
-                    <p class="reviews__descr">
-                      Я просто в восторге от этой школы, отзывчивчивые менторы, своевременная проверка домашнего задания
-Ментор очень пунктуальный и грамотный. Администрация очень приветливая и всегда идут на помощь, какие бы  проблемы ни возникли.
-Я просто в восторге от этой школы, отзывчивчивые менторы, своевременная проверка домашнего задания
-                    </p>
-                    <img src="./Images_Asya/reviews_img/reviews_photo4.png" alt="" />
+                    <div class="card__hidden-description">
+                      <p class="reviews__descr">
+                        Я просто в восторге от этой школы, отзывчивчивые
+                        менторы, своевременная проверка домашнего задания Ментор
+                        очень пунктуальный и грамотный. Администрация очень
+                        приветливая и всегда идут на помощь, какие бы проблемы
+                        ни возникли. Я просто в восторге от этой школы,
+                        отзывчивчивые менторы, своевременная проверка домашнего
+                        задания
+                      </p>
+                      <div class="reviews__triangle">
+                        <img
+                          src="./Images_Asya/reviews_img/reviews_trigon.svg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+
+                    <img
+                      src="./Images_Asya/reviews_img/reviews_photo4.png"
+                      alt=""
+                    />
                   </div>
                   <h3 class="reviews__info-subtitle">Андрей Ким</h3>
                 </div>
@@ -588,7 +667,7 @@
             </div>
           </div>
         </section>
-<!-- все сделала, немного изменила border  -->
+        <!-- все сделала в секции signup, немного изменила border  -->
         <section class="signup-for">
           <div class="container signup-for__content">
             <h2 class="signup-for__title">Как записаться к нам на курсы?</h2>
@@ -600,27 +679,26 @@
             </ul>
 
             <div class="signup-for__form-card">
-              
               <div class="signup-for__form">
                 <div class="signup-for__for-info">
-                  <h3 class="signup-for__for-subtitle">Мы поможем вам в выборе!
-                    <p class="signup-for__for-descr">Если у вас есть вопросы о курсах или не знаете что выбрать, оставьте свой номер или email: 
-                      мы позвоним, чтобы ответить на все ваши вопросы.</p>
+                  <h3 class="signup-for__for-subtitle">
+                    Мы поможем вам в выборе!
+                    <p class="signup-for__for-descr">
+                      Если у вас есть вопросы о курсах или не знаете что
+                      выбрать, оставьте свой номер или email: мы позвоним, чтобы
+                      ответить на все ваши вопросы.
+                    </p>
                   </h3>
                 </div>
                 <div class="signup-form__form">
+                  <input type="text" placeholder="Имя*" class="signup__name" />
                   <input
-                    type="signup__text"
-                    placeholder="Имя*"
-                    class="signup__name"
-                  />
-                  <input
-                    type="signup__text"
+                    type="text"
                     placeholder="Электронная почта*"
                     class="signup__name"
                   />
                   <input
-                    type="signup__text"
+                    type="number"
                     placeholder="Номер телефона*"
                     class="signup__name"
                   />
@@ -635,6 +713,11 @@
                     <label class="chekbox__label" for="allNews"
                       >Я согласен с политикой конфиденциальности</label
                     >
+                    <!-- добавила инфу для мобильной версии -->
+                    <label class="chekbox__mob-label" for="allNews"
+                      >Нажимая на кнопку, я соглашаюсь на обработку персональных
+                      данных и с правилами пользования Платформы</label
+                    >
                   </div>
                   <div class="signup__for-btn">
                     <a href="">
@@ -646,7 +729,7 @@
             </div>
           </div>
         </section>
-<!-- адаптивку сделал, но не смогла прикрепить значек и открытие ответа -->
+        <!-- адаптивку сделала, но не смогла прикрепить значек и открытие ответа -->
         <section class="questions">
           <div class="container questions__content">
             <h2 class="questions__title">Часто задаваемые вопросы</h2>
@@ -719,18 +802,23 @@
             </div>
           </div>
         </section>
-<!-- в секции новости в адаптивке добавилась еще корточка, нужно сделать как слайтер- адаптивка готова к слайдеру -->
+        <!-- все сделала в секции новости , нужно сделать слайдер -->
         <section class="news-events">
           <div class="container news-events__content">
             <h2 class="news-events__title">Новости и мероприятия</h2>
             <div class="news-events__cards">
               <div class="news-events__card">
                 <div class="news-events__card-img">
-                  <img src="./Images_Asya/news-events__cards/news_cards_board_games.png" alt="" />
+                  <img
+                    src="./Images_Asya/news-events__cards/news_cards_board_games.png"
+                    alt=""
+                  />
                 </div>
                 <div class="news-events__card-texts">
                   <h3 class="news-events__card-title">
-                    Настольные игры<br> с Codify
+                    Настольные игры<br />
+                    с Codify<br />
+                    <br />
                   </h3>
                   <p class="news-events__card-descr">
                     Дата проведения: 08.05.2021<br />
@@ -743,11 +831,15 @@
 
               <div class="news-events__card">
                 <div class="news-events__card-img">
-                  <img src="./Images_Asya/news-events__cards/news_cards_run_a_marathon.png" alt="" />
+                  <img
+                    src="./Images_Asya/news-events__cards/news_cards_run_a_marathon.png"
+                    alt=""
+                  />
                 </div>
                 <div class="news-events__card-texts">
                   <h3 class="news-events__card-title">
-                    Побежали на марафон<br> c Codify Lab
+                    Побежали на марафон<br />
+                    c Codify Lab
                   </h3>
                   <p class="news-events__card-descr">
                     Дата проведения: 08.05.2021<br />
@@ -760,11 +852,15 @@
 
               <div class="news-events__card">
                 <div class="news-events__card-img">
-                  <img src="./Images_Asya//news-events__cards/news_cards_vacancy.png" alt="" />
+                  <img
+                    src="./Images_Asya//news-events__cards/news_cards_vacancy.png"
+                    alt=""
+                  />
                 </div>
                 <div class="news-events__card-texts">
                   <h3 class="news-events__card-title">
-                    Вакансия!<br> Ищем ментора по Python
+                    Вакансия!<br />
+                    Ищем ментора по Python
                   </h3>
                   <p class="news-events__card-descr">
                     Дата проведения: 08.05.2021<br />
@@ -777,11 +873,15 @@
 
               <div class="news-events__card">
                 <div class="news-events__card-img">
-                  <img src="./Images_Asya//news-events__cards/news_cards_english.png" alt="" />
+                  <img
+                    src="./Images_Asya//news-events__cards/news_cards_english.png"
+                    alt=""
+                  />
                 </div>
                 <div class="news-events__card-texts">
                   <h3 class="news-events__card-title">
-                    Английский вместе<br> с Codify
+                    Английский вместе<br />
+                    с Codify
                   </h3>
                   <p class="news-events__card-descr">
                     Дата проведения: 08.05.2021<br />
@@ -795,7 +895,7 @@
             <a href="" class="news-events__btn btn">ВСЕ НОВОСТИ</a>
           </div>
         </section>
-<!-- в секции footer все готово и адаптивка тоже  -->
+        <!-- в секции footer все готово и адаптивка тоже  -->
         <footer class="footer">
           <div class="container">
             <div class="footer__top">
@@ -914,10 +1014,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
     />
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
     <script src="./JS_Asya/script.js"></script>
-    <!-- <script src="js/wow.min.js"></script>
-              <script>
-              new WOW().init();
-              </script> -->
   </body>
 </html>
