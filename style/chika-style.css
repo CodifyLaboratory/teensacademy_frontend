@@ -36,6 +36,13 @@ ul {
   padding-bottom: 24px;
 }
 
+.nav__mentors{
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+}
+
 .nav__content {
   display: flex;
   justify-content: space-between;
@@ -94,7 +101,7 @@ color: #fff;
 }
 
 .header__title {
-  margin-top: 92px;
+  margin-top: 152px;
   font-weight: 600;
   font-size: 40px;
   line-height: 49px;
@@ -569,7 +576,7 @@ cursor: pointer;
 
 .mentor{
   text-align: center;
-  margin-top: 50px;
+  margin-top: 150px;
   margin-bottom: 44px;
   font-weight: 800;
 font-size: 40px;
@@ -1034,6 +1041,7 @@ cursor: pointer;
 }
 
 .designer__title{
+  margin-top: 150px;
   font-weight: 600;
   font-size: 50px;
   line-height: 64px;
@@ -1361,6 +1369,7 @@ margin-top: 60px;
   }
 
   .nav__mentors{
+    position: unset;
     background: none;
     margin-top: 26px;
     padding-bottom: 0px;
