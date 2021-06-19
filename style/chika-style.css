@@ -579,14 +579,6 @@ ul {
   padding-bottom: 22px;
 }
 
-.main {
-  background-image: url("../images/star__backg.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 100%;
-  width: 100%;
-}
-
 .mentor {
   text-align: center;
   margin-top: 150px;
@@ -1265,6 +1257,59 @@ ul {
   width: 100%;
 }
 
+.bg__animation_stars img{
+  position: absolute;
+  z-index: -1;
+  content: '';
+  transform: translate3d(0, - 100%, 0);
+  animation: bg__animation 60s linear infinite;
+  background-size: contain;
+  max-width: 100%;
+  width: 100%;
+}
+
+@keyframes bg__animation{
+  100% {
+    transform: translate3d(0, -47%, 0);
+  }
+  100% {
+    transform: translate3d(1, 30%, 1);
+  }
+
+}
+
+.bg__animation img {
+  position: absolute;
+  z-index: -1;
+  content: '';
+  transform: translate3d(0, - 100%, 0);
+  animation: background__planets  90s infinite;
+  background-size: contain;
+  max-width: 100%;
+  width: 100%;
+}
+@keyframes background__planets {
+    100% {
+      transform: translate3d(0, -47%, 0);
+    }
+    100% {
+      transform: translate3d(1, 30%, 1);
+    }
+
+}
+
+.bg__animation_mobile{
+  display: none;
+  position: absolute;
+  z-index: -1;
+  content: '';
+  transform: translate3d(0, - 100%, 0);
+  animation: background__planets  90s infinite;
+  background-size: contain;
+  max-width: 100%;
+  width: 100%;
+}
+
 @media (max-width: 1250px) {
   .container {
     padding: 0px 14px;
@@ -1504,10 +1549,16 @@ ul {
     margin-top: 30px;
   }
 
-  .news__backg {
-    background-image: url("../images/Background__news_mobile.png");
-    background-repeat: no-repeat;
-    background-position: center;
+  .bg__animation_mobile{
+    display: block;
+  }
+
+  .bg__animation_stars{
+    display: none;
+  }
+
+  .bg__animation{
+    display: none;
   }
 
   .header__title {
