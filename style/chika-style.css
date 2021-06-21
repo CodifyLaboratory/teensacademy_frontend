@@ -1284,7 +1284,7 @@ ul {
   z-index: -1;
   content: '';
   transform: translate3d(0, - 100%, 0);
-  animation: background__planets  90s infinite;
+  animation: background__planets  50s infinite;
   background-size: contain;
   max-width: 100%;
   width: 100%;
@@ -1294,7 +1294,7 @@ ul {
       transform: translate3d(0, -47%, 0);
     }
     100% {
-      transform: translate3d(1, 30%, 1);
+      transform: translate3d(0, 30%, 1);
     }
 
 }
